@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+.up {
+    background-color: #F6F6F9;
+    padding-top: 40px;
+    padding-bottom: 23px;
+
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'rubik';
+    font-weight: 700;
+    display: inline-block;
+    color: #295091;
+    font-size: 28px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 4px 6px;
+
+}
+
+.header p {
+    display: inline-block;
+    font-family: 'rubik';
+    color: #7A7A7A;
+    font-size: 16px;
+    word-spacing: 10px;
+    margin-left: 20px;
+}
+
+.bold {
+    font-weight: 700;
+    color: #295091;
+
+}
+
+.lupa {
+    display: inline-block;
+    margin-left: 250px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 11px 9.6px 9px 11px;
+    margin-right: 21px;
+
+}
+
+.flag {
+    display: inline-block;
+    padding: 10px 8px 8px 11px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 22px;
+
+}
+
+.lupa img {
+    height: 17px;
+    width: 17px;
+}
+
+.flag img {
+    border-radius: 50%;
+}
+
+.flag p {
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+    margin-left: 5px;
+}
+
+.telegram {
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    /* float: right; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.telegram p {
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.telegram img {
+    width: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+button {
+    border: none;
+}
+
+.navbar {
+    background: #fff;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 19px;
+    padding: 21px 0px;
+    font-family: 'rubik';
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.adds {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 18px;
+}
+
+.covid div {
+    display: inline-block;
+}
+
+.covid div img,
+.covid div p,
+.covid div h3 {
+    display: inline-block;
+}
+
+.covid {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F6F6F9;
+    margin-top: 22px;
+    padding: 44px 0;
+    border-radius: 5px;
+}
+
+.covid div p {
+    font-family: 'rubik';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.intro {
+    margin-left: 0px;
+}
+
+
+.intro img {
+    width: 44px;
+    margin-right: 20px;
+}
+
+.hr1 {
+    width: 2px;
+    height: 70px;
+    background: #EB5569;
+    margin: -30px 0;
+    margin-bottom: -13px;
+    margin-left: 71px;
+    margin-right: 0px;
+}
+
+.infection {
+    color: #DB0000;
+}
+
+.covid div span {
+    color: #000;
+    font-weight: 900;
+}
+
+.covid div img {
+    margin-right: 18px;
+}
+
+.hr2 {
+    width: 2px;
+    height: 49px;
+    background-color: #F4CCD1;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.row1,
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.card img {
+    width: 350px;
+}
+
+.text {
+    width: 350px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.date {
+    color: #6B6D97;
+    font-family: 'rubik';
+    font-size: 14px;
+}
+
+.notify {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #EFBA542E;
+    padding: 20px 0;
+    margin-top: 30px;
+
+}
+
+.notify img {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.notify h2 {
+    display: inline-block;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.notify button {
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px;
+    padding-left: 15px;
+    /* margin-left: 150px;
+    margin-right: -80px; */
+
+}
+.none{
+    height: 20px;
+}
+.notify button:active{
+    background: none;
+    color:#FE5C28;
+}
+.covid-info:hover{
+    border: 2px solid red
+}

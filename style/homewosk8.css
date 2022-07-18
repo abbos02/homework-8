@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+@font-face {
+    font-family: 'rubik';
+    src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+.main{
+    background-color: rgb(218, 223, 228);
+}
+.header{
+
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 47px;
+    padding-bottom: 44px;
+
+}
+.text{
+    font-family: 'rubik';
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #285193;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.item{
+    
+    font-family: 'rubik';
+    color: #fff;
+    display: flex;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.money{
+    color:#285193;
+}
+.lupa img{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.flag{
+    -top: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding:0 15px;
+    margin-right: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.flag img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.flag p{
+    display: inline-block;
+    color:black ;
+}
+.tel{
+    background-color:#285193;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.tel img{
+    display: inline-block;
+    width: 30px;
+  
+}
+.tel p{
+    display: inline-block;  
+}
+.menu{
+    width: 80%;
+    display: flex;
+    background-color: #fff;
+    display: flex;
+    margin:44px 150px;
+    padding: 19px;
+    font-family: 'rubik';
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+}
+.menu p{
+    text-align: ;
+    margin: 0 20px;
+}
+.board{
+    margin-left: 150px;
+    width:;
+}
+
